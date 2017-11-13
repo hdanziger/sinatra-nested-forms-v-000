@@ -7,7 +7,7 @@ class Pirate
     @name = args[:name]
     @weight = args[:weight]
     @height = args[:height]
-    pirate << self
+    pirates << self
   end
 
   def self.all
